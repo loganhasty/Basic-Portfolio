@@ -1,0 +1,118 @@
+body {
+    background-image:url("../images/topography.png");
+    background-color:transparent;
+    color:#777777;
+}
+
+.navbar .nav-buttons{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-color:#cccccc;
+    position:relative;
+    width:935px;
+}
+
+.nav-links {
+    float: right;
+    list-style-type:none;
+
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 18px 24px;
+    text-decoration: none;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.logo {
+    font-family:'Georgia', 'Times', 'Times New Roman', serif;
+	text-align:center;
+    color:white;
+	float:left;
+    padding:15px 15px;
+	background-color:#4aaaa5;
+	vertical-align:middle;
+	margin-left:5%;
+	position:absolute;
+	display:block;
+    height:100%;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.About-Me {
+    width:580px;
+    float:left;
+    margin:20px 60px 0 0;
+    padding:0 10px 0 10px;
+    background-color:#fff;
+    border-style:solid;
+    border-color:#ddd;
+    border-width:1px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    margin-left:10px;
+}
+
+.portrait {
+    width:20%;
+    float:left;
+    padding:0 20px 0 10px;
+}
+
+.connect {
+    width:270px;
+    background-color:#fff;
+    float:left;
+    margin-top:20px;
+    border-style:solid;
+    border-color:#ddd;
+    border-width:1px;
+}
+
+.social {
+    list-style-type:none;
+}
+
+.social img {
+    float:left;
+    display:inline;
+    width:50px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+hr {
+    margin:0 20px 10px 10px;
+    color:#777777;
+}
+
+.footer {
+    background-color:#666666;
+    text-align:center;
+    font-size:14px;
+    color:#fff;
+    position:fixed;
+    bottom:0;
+    width:960px;
+    border-top-style:solid;
+    border-top-color:#4aaaa5;
+    border-top-width:4px;
+}
