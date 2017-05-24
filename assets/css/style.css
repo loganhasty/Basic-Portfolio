@@ -2,6 +2,7 @@ body {
     background-image:url("../images/topography.png");
     background-color:transparent;
     color:#777777;
+    line-height:30px;
 }
 
 .navbar .nav-buttons{
@@ -55,7 +56,7 @@ li a:hover {
 }
 
 .left-section, .portfolio-section {
-    width:610px;
+    width:600px;
     float:left;
     margin:20px 40px 100px 25px;
     padding:0 10px 20px 10px;
